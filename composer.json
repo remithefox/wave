@@ -1,0 +1,24 @@
+{
+    "name": "remithefox/wave",
+    "description": "Library to generating wave files",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RemiTheFox\\Wave\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Remi the fox",
+            "email": "remithefox93@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
+}
